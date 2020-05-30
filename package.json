@@ -1,0 +1,66 @@
+{
+  "name": "covid-19-campinas",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jest",
+    "test-unit": "HEADLESS=true jest --testRegex .test.js  --watch",
+    "test-spec": "HEADLESS=true jest --testRegex .spec.js --watch",
+    "test-unit-show": "jest --testRegex .test.js  --watch",
+    "test-spec-show": "jest --testRegex .spec.js --watch",
+    "dev": "webpack --mode development --watch",
+    "build": "webpack --mode production",
+    "build-watch": "webpack --mode production --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tamnil/covid-19-campinas.git"
+  },
+  "author": "Tamnil Saito Junior <tamnil@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tamnil/covid-19-campinas/issues"
+  },
+  "homepage": "https://github.com/tamnil/covid-19-campinas#readme",
+  "devDependencies": {
+    "@babel/core": "^7.10.1",
+    "@babel/preset-env": "^7.10.1",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^8.1.0",
+    "babel-preset-env": "^1.7.0",
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "^2.2.2",
+    "css-loader": "^3.5.3",
+    "eslint": "^7.1.0",
+    "eslint-plugin-vue": "^7.0.0-alpha.0",
+    "file-loader": "^6.0.0",
+    "jest-environment-node": "^26.0.1",
+    "jest-puppeteer": "^4.4.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "node-sass": "^4.14.1",
+    "optimize-css-assets-webpack-plugin": "^5.0.3",
+    "postcss-loader": "^3.0.0",
+    "puppeteer": "^3.2.0",
+    "resolve-url-loader": "^3.1.1",
+    "sass": "^1.26.7",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "typescript": "^3.9.3",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "vue-loader": "^15.9.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  },
+  "browserslist": "> 0.25%, not dead",
+  "dependencies": {
+    "babel-plugin-transform-regenerator": "^6.26.0",
+    "babel-polyfill": "^6.26.0",
+    "extra-watch-webpack-plugin": "^1.0.3",
+    "npm-check-updates": "^6.0.1"
+  }
+}
