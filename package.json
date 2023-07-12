@@ -32,7 +32,7 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^8.1.0",
     "babel-preset-env": "^1.7.0",
-    "browser-sync": "^2.26.7",
+    "browser-sync": "^2.29.3",
     "browser-sync-webpack-plugin": "^2.2.2",
     "css-loader": "^3.5.3",
     "eslint": "^7.1.0",
